@@ -4,12 +4,12 @@ from collections import defaultdict
 
 """this is going to be the genetic algo"""
 #indxit cannot be in target_word
-
+population_number = 0
 mutation_percent = 0.05
 population_size = 100
 keep_how_many = 11 #10 gives us 10^2 - 1 names. We need 11
 #target_word = "Hello I hope the length of this is not a matter"
-target_word = "school is very hard" #word cuttof after solve??? sometimes the word is cut short?
+target_word = "1000 people live here" #word cuttof after solve??? sometimes the word is cut short?
 #fixed the problems, the indxit splits the words at that to avoid conflict with something
 
 indxit = ".$*"
@@ -17,7 +17,10 @@ indxit = ".$*"
 #forgot to add space as a word
 #97-122
 #32 is space
-alphabet = [chr(x) for x in range(97, 123)]
+alphabet = []
+alphabet += [chr(x) for x in range(97, 123)]
+alphabet += [chr(x).capitalize() for x in range(97, 123)]
+alphabet += [str(x) for x in range(0,10)]
 alphabet.append(" ")
 #spaces have to be underscores
 
@@ -134,11 +137,14 @@ def make_from_potluck(fittest):
 
 class Evolve:
     mypop = {'sponge': 0}
-
+    
     def go(self):
+        self.mypop_number = 0
         while(not(target_word == generate_highest_scores(self.mypop))):
             #print("here")
             self.mypop = generate_population(population_size,self.mypop)
+            self.mypop_number += 1
+
             #print("there")
 
             #print(len(generate_top_many(self.mypop)))
@@ -150,7 +156,9 @@ class Evolve:
 
 
             current_highest = generate_highest_scores(self.mypop)
+            
             print(current_highest)
+        print("Generation : " + str(self.mypop_number))
 
 
 my_class = Evolve()
@@ -165,11 +173,5 @@ my_class.go()
 #print(len(make_from_potluck(generate_top_many(population)))) #this isnt ending
 #print(len(populate_population(make_from_potluck(generate_top_many(population)))))
 print("yay")
-
-
-
-
-
-
 
 
