@@ -25,6 +25,10 @@ These are my projects I have made over the course of time
 # Racket Checkers
 - Fully functional game of checkers
 - Bug where you can jump back to same spot indefinitely (Ill fix it eventually)
+- Main.rkt is where checkers is located
+- run checker server to play against a second player.
+- 'launch-many-worlds' creates 2 games, comment this out if you want to play by yourself
+
 
 
 
