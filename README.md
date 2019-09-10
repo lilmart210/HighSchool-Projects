@@ -29,6 +29,10 @@ These are my projects I have made over the course of time
 - run checker server to play against a second player.
 - 'launch-many-worlds' creates 2 games, comment this out if you want to play by yourself
 
+# Garden Automation
+- Using sonoff equipment to do this
+
+
 
 
 
