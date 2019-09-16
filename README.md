@@ -30,7 +30,7 @@ These are my projects I have made over the course of time
 - 'launch-many-worlds' creates 2 games, comment this out if you want to play by yourself
 
 # Garden Automation
-- Using sonoff equipment to do this
+- Using ESP8266 outlet to do this. Drop a reccomendation for easily flashible outlets
 
 
 
