@@ -21,6 +21,10 @@ These are my projects I have made over the course of time
 # Proccessing Genetic Algorithm Example Using Strings (...)
 - String evolves towards target word over time
 
+#Racket Pool
+- fully functional game of 2d pool
+- currently not multiplayer
+- some minor changes, to be published soon
 
 # Racket Checkers
 - Fully functional game of checkers
