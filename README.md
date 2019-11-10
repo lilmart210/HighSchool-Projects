@@ -39,7 +39,8 @@ These are my projects I have made over the course of time
 
 
 # 3D self evolving cars
--this is made in proccessing 3d
+- this is made in proccessing 3d
+- physics is a little odd but it works
 
 
 
