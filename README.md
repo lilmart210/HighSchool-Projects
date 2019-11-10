@@ -35,6 +35,8 @@ These are my projects I have made over the course of time
 
 # Garden Automation
 - Using ESP8266 outlet to do this. Drop a reccomendation for easily flashible outlets
+- Using itead outlet, pictures soon
+
 
 # 3D self evolving cars
 -this is made in proccessing 3d
