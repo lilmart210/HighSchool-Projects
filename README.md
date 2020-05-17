@@ -52,6 +52,7 @@ These are my projects I have made over the course of time
 - there isn't any abp yet and the source is very messy. 
 - ill probably clean it up later.
 - made in python for processing, needs processing.py to run
+- is still slow, don't even think about making the board 4x4
 
 
 
