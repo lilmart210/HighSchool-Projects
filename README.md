@@ -26,6 +26,7 @@ These are my projects I have made over the course of time
 - currently not multiplayer
 - some minor changes, to be published soon
 - (edit, old code is Broken, a new version to be made in python and java)
+
 # Racket Checkers
 - Fully functional game of checkers
 - Bug where you can jump back to same spot indefinitely (Ill fix it eventually)
@@ -43,16 +44,16 @@ These are my projects I have made over the course of time
 - this is made in proccessing 3d
 - physics is a little odd but it works
 - (dropped due to time constraints, continuing over summer)
-- 
 
 
-# TicTacToe with mixmax
+
+# TicTacToe with minmax
 - kinda self explanatory, made it to see what was wrong with connect4 minmax
 - final take on it is that alpha beta pruning is critical to faster responses
-- there isn't any abp yet and the source is very messy. 
+- there isn't any abp yet and the source is very messy(there is now, still messy). 
 - ill probably clean it up later.
 - made in python for processing, needs processing.py to run
-- is still slow, don't even think about making the board 4x4
+- still slow, don't even think about making the board 4x4
 
 
 
