@@ -1,5 +1,6 @@
 # HighSchool-Projects
 These are my projects I have made over the course of time
+Not just in highschool
 
 
 # PyCharm Evolving Car notes (pyg.py)
