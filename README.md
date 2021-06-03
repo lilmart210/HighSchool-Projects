@@ -56,5 +56,8 @@ Not just in highschool
 - made in python for processing, needs processing.py to run
 - still slow, don't even think about making the board 4x4
 
-
+# Markov Chain
+- a web crawler that crawls kisslight novels 
+- generates unlimited cultivation stories
+- i want to replicate this but with better grammer and sentence structure
 
